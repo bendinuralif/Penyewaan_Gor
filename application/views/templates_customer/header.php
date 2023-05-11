@@ -27,7 +27,7 @@
     <!--=== Theme Reset CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/reset.css" rel="stylesheet">
     <!--=== Main Style CSS ===-->
-    <link href="<?php echo base_url() ?>assets/assets_shop/css/styl.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/assets_shop/css/style.css" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/responsive.css" rel="stylesheet">
 
