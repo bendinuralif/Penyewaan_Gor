@@ -8,7 +8,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Cardoor - Marketplace Rental Mobil Se-Pekanbaru</title>
+    <title>REGORA - Costumer</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
     <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
-                <img src="<?php echo base_url() ?>assets/assets_shop/img/preloader.gif" alt="JSOFT">
+                <img src="<?php echo base_url() ?>assets/assets_shop/img/animasi.gif" alt="JSOFT">
             </div>
         </div>
     </div>
@@ -86,8 +86,8 @@
                 <div class="row">
                     <!--== Logo Start ==-->
                     <div class="col-lg-4">
-                        <a href="<?php echo base_url() ?>" class="logo">
-                            <img src="<?php echo base_url() ?>assets/assets_shop/img/logo.png" alt="JSOFT">
+                        <a href="<?php echo base_url() ?>" class="logoi">
+                            <img src="<?php echo base_url() ?>assets/assets_shop/img/regora.png" alt="JSOFT">
                         </a>
                     </div>
                     <!--== Logo End ==-->

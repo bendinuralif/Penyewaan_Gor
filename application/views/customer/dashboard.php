@@ -1,3 +1,4 @@
+<link href="<?php echo base_url() ?>assets/assets_shop/css/style.css" rel="stylesheet">
     <!--== SlideshowBg Area Start ==-->
     <section id="slideslow-bg">
         <div class="container">
@@ -7,7 +8,7 @@
                         <div class="display-table">
                             <div class="display-table-cell">
                                 <h1>SELAMAT DATANG!</h1>
-                                <p>RENTAL MOBIL TERBAIK SE-PEKANBARU<br>HARGA BERSAHABAT, KUALITAS PALING MANTAP</p>
+                                <p>RENTAL TENPAT OLAHRAGA TERBAIK SE-SOLO RAYA<br>HARGA BERSAHABAT, KUALITAS & FASILITAS PALING MANTAP</p>
 
 
                             </div>

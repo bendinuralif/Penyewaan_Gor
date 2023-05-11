@@ -114,7 +114,7 @@
 }
 
 .section-title .title-line {
-	color: #ffd000;
+	color: #ff0059;
 	position: relative;
 }
 
@@ -149,12 +149,12 @@
 }
 
 .scroll-top {
-    bottom: 50px;
+    bottom: 500px;
     cursor: pointer;
     display: none;
     position: fixed;
-    right: 30px;
-    width: 30px;
+    right: 500px;
+    width: 500px;
     z-index: 9999;
 }
 
@@ -215,6 +215,8 @@ header.fixTotop #header-bottom {
 
 .logo {
 	display: inline-block;
+	width: 30px;
+	height: 30px;
 }
 
 .mainmenu ul li {
@@ -1557,7 +1559,7 @@ body,
 }
 
 .slideshowcontent h1 {
-	color: #ffd000;
+	color: #1500ff;
 	margin-bottom: 20px;
 }
 

@@ -10,7 +10,7 @@
                             <h2>Tentang Kami</h2>
                             <div class="widget-body">
                                 <img src="<?php echo base_url() ?>assets/assets_shop/img/logo.png" alt="JSOFT">
-                                <p>Cardoor adalah Pintu penghubung antara penyedia rental dengan customer. Sebuah marketplace untuk penyedia rental dan customer untuk saling terhubung.</p>
+                                <p>REGORA adalah Pintu penghubung antara penyedia rental dengan customer. Sebuah marketplace untuk penyedia rental dan customer untuk saling terhubung.</p>
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                         <div class="single-footer-widget">
                             <h2>Hubungi Kami</h2>
                             <div class="widget-body">
-                                <p>Hubungi kami untuk mengetahui lebih banyak. Dapatkan layanan terbaik dan prioritas dari kami, Cardoor.</p>
+                                <p>Hubungi kami untuk mengetahui lebih banyak. Dapatkan layanan terbaik dan prioritas dari kami, REGORA.</p>
 
                                 <ul class="get-touch">
                                     <li><i class="fa fa-map-marker"></i> Jl. Hr. Soebrantas, Pekanbaru</li>
@@ -57,7 +57,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--== Scroll Top Area Start ==-->
     <div class="scroll-top">
-        <img src="<?php echo base_url() ?>assets/assets_shop/img/scroll-top.png" alt="JSOFT">
+        <img src="<?php echo base_url() ?>assets/assets_shop/img/kok 2.png" alt="JSOFT">
     </div>
     <!--== Scroll Top Area End ==-->
 
