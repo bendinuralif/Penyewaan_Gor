@@ -27,10 +27,9 @@
     <!--=== Theme Reset CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/reset.css" rel="stylesheet">
     <!--=== Main Style CSS ===-->
-    <link href="<?php echo base_url() ?>assets/assets_shop/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/assets_shop/css/styl.css" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/responsive.css" rel="stylesheet">
-
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
