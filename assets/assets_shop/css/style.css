@@ -114,7 +114,7 @@
 }
 
 .section-title .title-line {
-	color: #ff0059;
+	color: #ffd000;
 	position: relative;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .scroll-top {
-    bottom: 500px;
+    bottom: 50px;
     cursor: pointer;
     display: none;
     position: fixed;
@@ -208,15 +208,13 @@ header.fixTotop #header-top {
 }
 
 header.fixTotop #header-bottom {
-	background-color: rgb(247, 6, 6);
+	background-color: rgba(0, 0, 0, 1);
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
 
 .logo {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
 }
 
 .mainmenu ul li {
@@ -1361,7 +1359,7 @@ a.slicknav_btn {
 
 .newsletter-area input {
 	background-color: transparent;
-	border: 1px solid #00ff00;
+	border: 1px solid #ffd000;
 	border-radius: 2px;
 	color: #fff;
 	height: 55px;
@@ -1559,7 +1557,7 @@ body,
 }
 
 .slideshowcontent h1 {
-	color: #1500ff;
+	color: #ffd000;
 	margin-bottom: 20px;
 }
 
