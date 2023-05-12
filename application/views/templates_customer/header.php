@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/assets_shop/img/regora.png" type="image/x-icon" />
 
     <title>REGORA - Costumer</title>
+    <link rel=”icon” href=”assets/assets_shop/img/regora.png”>
 
     <!--=== Bootstrap CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/bootstrap.min.css" rel="stylesheet">

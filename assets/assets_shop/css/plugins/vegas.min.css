@@ -1,5 +1,16 @@
-.vegas-wrapper,
-.vegas-overlay,
+.vegas-wrapper {
+    background-color: #00FF00;
+	content: "";
+	left: 0;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.vegas-overlay{
+    background-color: #00FF00 ;
+}
 .vegas-timer,
 .vegas-slide,
 .vegas-slide-inner {
@@ -16,7 +27,7 @@
 
 .vegas-overlay {
     opacity: 0.75;
-    background-color: #000;
+    background-color: #00FF00;
 }
 
 .vegas-timer {
@@ -50,6 +61,7 @@
 body .vegas-container {
     overflow: hidden !important;
     position: relative;
+    
 }
 
 .vegas-video {
@@ -63,6 +75,7 @@ body.vegas-container {
     overflow: auto;
     position: static;
     z-index: -2;
+    background-color: #00FF00;
 }
 
 body.vegas-container > .vegas-timer,
