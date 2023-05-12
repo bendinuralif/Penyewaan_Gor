@@ -57,7 +57,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--== Scroll Top Area Start ==-->
     <div class="scroll-top">
-        <img src="<?php echo base_url() ?>assets/assets_shop/img/kok 2.png" alt="JSOFT">
+        <img src="<?php echo base_url() ?>assets/assets_shop/img/kok.png" alt="JSOFT">
     </div>
     <!--== Scroll Top Area End ==-->
 

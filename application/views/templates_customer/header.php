@@ -85,7 +85,7 @@
                 <div class="row">
                     <!--== Logo Start ==-->
                     <div class="col-lg-4">
-                        <a href="<?php echo base_url() ?>" class="logoi">
+                        <a href="<?php echo base_url() ?>" class="logo">
                             <img src="<?php echo base_url() ?>assets/assets_shop/img/regora.png" alt="JSOFT">
                         </a>
                     </div>
