@@ -1,15 +1,31 @@
 .vegas-wrapper {
-    background-color: #00FF00;
-	content: "";
+    background-image: url(./manahan.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 	left: 0;
 	position: absolute;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(./manahan.png)  
+    }
+    35%{
+        background-image: url(./bulu-tangkis.jpg)  
+    }
+    75%{
+        background-image: url(./futsal.jpg)  
+    }
+    100%{
+        background-image: url(./basket.png)
+    }
 }
 .vegas-overlay{
-    background-color: #00FF00 ;
+
 }
 .vegas-timer,
 .vegas-slide,
@@ -27,7 +43,6 @@
 
 .vegas-overlay {
     opacity: 0.75;
-    background-color: #00FF00;
 }
 
 .vegas-timer {
