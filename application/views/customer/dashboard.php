@@ -73,7 +73,7 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-funfact">
                                     <div class="funfact-icon">
-                                        <i class="fa fa-car"></i>
+                                        <i class="fa fa-map-marker"></i>
                                     </div>
                                     <div class="funfact-content">
                                         <p><span class="counter"><?php echo $total_mobil ?></span>+</p>
@@ -113,7 +113,7 @@
                 <div class="col-lg-12">
                     <div class="section-title  text-center">
                         <h2>Pilih Venue Anda</h2>
-                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <span class="title-line"><i class="fa fa-map-marker"></i></span>
                         <p>Venue Pilihan Terbaik Untuk Memberikan Anda Kenyamanan</p>
                     </div>
                 </div>

@@ -116,6 +116,7 @@
 .section-title .title-line {
 	color: #ffd000;
 	position: relative;
+	width: 20px;
 }
 
 .section-title .title-line::after {
@@ -201,7 +202,7 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: #00366585;
 	padding: 15px 0;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;

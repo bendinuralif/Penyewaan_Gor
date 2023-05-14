@@ -1,5 +1,5 @@
 .vegas-wrapper {
-    background-image: url(./manahan.png) ;
+    background-image: url(./lapangan.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 	left: 0;
@@ -7,7 +7,7 @@
 	top: 0;
 	height: 100%;
 	width: 100%;
-    animation: change 20s infinite ease-in-out;
+    animation: chang 20s infinite ease-in-out;
 }
 
 @keyframes change{

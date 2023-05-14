@@ -10,7 +10,7 @@
                             <h2>Tentang Kami</h2>
                             <div class="widget-body">
                                 <img src="<?php echo base_url() ?>assets/assets_shop/img/logo.png" alt="JSOFT">
-                                <p>Cardoor adalah Pintu penghubung antara penyedia rental dengan customer. Sebuah marketplace untuk penyedia rental dan customer untuk saling terhubung.</p>
+                                <p>REGORA adalah Pintu penghubung antara penyedia rental dengan customer. Sebuah marketplace untuk penyedia rental dan customer untuk saling terhubung.</p>
                             </div>
                         </div>
                     </div>
@@ -22,12 +22,12 @@
                         <div class="single-footer-widget">
                             <h2>Hubungi Kami</h2>
                             <div class="widget-body">
-                                <p>Hubungi kami untuk mengetahui lebih banyak. Dapatkan layanan terbaik dan prioritas dari kami, Cardoor.</p>
+                                <p>Hubungi kami untuk mengetahui lebih banyak. Dapatkan layanan terbaik dan prioritas dari kami, REGORA.</p>
 
                                 <ul class="get-touch">
                                     <li><i class="fa fa-map-marker"></i> Jl. Hr. Soebrantas, Pekanbaru</li>
                                     <li><i class="fa fa-mobile"></i> +62 811 1111 111</li>
-                                    <li><i class="fa fa-envelope"></i> layanan@cardoor.com</li>
+                                    <li><i class="fa fa-envelope"></i> layanan@regora.com</li>
                                 </ul>
                                 <!-- <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a> -->
                             </div>
@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                 </div>
