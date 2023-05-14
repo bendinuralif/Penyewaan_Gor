@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="assets/assets_shop/img/regora.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>REGORA - Costumer</title>
-    <link rel=”icon” href=”assets/assets_shop/img/regora.png”>
+    <title>REGORA - Customer</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +30,7 @@
     <link href="<?php echo base_url() ?>assets/assets_shop/css/style.css" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/responsive.css" rel="stylesheet">
+
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -98,7 +98,7 @@
                             <ul>
                                 <!-- <li><a href="<?php echo base_url('customer/dashboard') ?>">Beranda</a></li> -->
 
-                                <li><a href="<?php echo base_url('customer/data_mobil') ?>">Mobil</a></li>
+                                <li><a href="<?php echo base_url('customer/data_mobil') ?>">Venue</a></li>
 
                                 <?php if($this->session->userdata('nama')) { ?>
 

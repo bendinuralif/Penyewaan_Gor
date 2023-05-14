@@ -1,4 +1,3 @@
-<link href="<?php echo base_url() ?>assets/assets_shop/css/style.css" rel="stylesheet">
     <!--== SlideshowBg Area Start ==-->
     <section id="slideslow-bg">
         <div class="container">
@@ -8,7 +7,7 @@
                         <div class="display-table">
                             <div class="display-table-cell">
                                 <h1>SELAMAT DATANG!</h1>
-                                <p>RENTAL TENPAT OLAHRAGA TERBAIK SE-SOLO RAYA<br>HARGA BERSAHABAT, KUALITAS & FASILITAS PALING MANTAP</p>
+                                <p>RENTAL VENUE TERBAIK SE-PEKANBARU<br>HARGA BERSAHABAT, KUALITAS PALING MANTAP</p>
 
 
                             </div>
@@ -78,7 +77,7 @@
                                     </div>
                                     <div class="funfact-content">
                                         <p><span class="counter"><?php echo $total_mobil ?></span>+</p>
-                                        <h4>MOBIL TERSEDIA</h4>
+                                        <h4>VENUE TERSEDIA</h4>
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +112,9 @@
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
                     <div class="section-title  text-center">
-                        <h2>Pilih Mobil Anda</h2>
+                        <h2>Pilih Venue Anda</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Mobil Pilihan Terbaik Untuk Memberikan Anda Kenyamanan</p>
+                        <p>Venue Pilihan Terbaik Untuk Memberikan Anda Kenyamanan</p>
                     </div>
                 </div>
                 <!-- Section Title End -->

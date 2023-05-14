@@ -153,7 +153,7 @@
     cursor: pointer;
     display: none;
     position: fixed;
-    right: 0px;
+    right: 50px;
     width: 50px;
     z-index: 9999;
 }
@@ -215,10 +215,10 @@ header.fixTotop #header-bottom {
 
 .logo {
 	display: inline-block;
-	width: 50px;
+	width: 70px;
 	height: 50px;
 	position: relative;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 .mainmenu ul li {
@@ -1561,7 +1561,7 @@ body,
 }
 
 .slideshowcontent h1 {
-	color: #003665;
+	color: #fab702;
 	margin-bottom: 20px;
 }
 
