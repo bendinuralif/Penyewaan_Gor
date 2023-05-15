@@ -42,9 +42,9 @@
               Belum memiliki akun? <a href="<?php echo base_url('register') ?>">Buat akun</a>
             </div>
             <div class="simple-footer">
-              Copyright &copy; Stisla 2018
+              Copyright &copy; 2023
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </section>
