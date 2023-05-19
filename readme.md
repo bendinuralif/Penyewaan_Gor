@@ -1,24 +1,6 @@
-<h2 align="center">Marketplace Rental Mobil (CodeIgniter 3)</h2>
+<h2 align="center">REGORA (CodeIgniter 3)</h2>
 
-Aplikasi marketplace rental mobil menggunakan framework CodeIgniter 3. Dengan multi user (admin, pemilik rental dan kustomer). 
-
------
-
-#### Screenshot aplikasi (dalam GIF)
-##### Kustomer
-<p align="center">
-  <img src="https://raw.githubusercontent.com/idnorman/marketplace-rental-mobil-codeigniter3/master/customer.gif">
-</p> 
-
-##### Pemilik Rental
-<p align="center">
-  <img src="https://raw.githubusercontent.com/idnorman/marketplace-rental-mobil-codeigniter3/master/owner%20rental.gif">
-</p>
-
-##### Admin
-<p align="center">
-  <img src="https://raw.githubusercontent.com/idnorman/marketplace-rental-mobil-codeigniter3/master/admin.gif">
-</p>
+Aplikasi marketplace rental tempat olahraga menggunakan framework CodeIgniter 3. Dengan multi user (admin, pemilik rental dan kustomer). 
 
 -----
 
@@ -29,9 +11,9 @@ Aplikasi marketplace rental mobil menggunakan framework CodeIgniter 3. Dengan mu
 - [Stisla Admin Template](https://getstisla.com/ "Stisla Admin Template")
 -----
 #### Instalasi
-Download/clone repository, kemudian import database **rental-mobil.sql**, selesai
+Download/clone repository, kemudian import database **regora.sql**, selesai
 
 -----
 
 #### Note
-Masih terdapat kekurangan, feel free to edit 😆 😆 😆
+Tugas Semester 4 😆 😆 😆
