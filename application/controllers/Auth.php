@@ -5,7 +5,7 @@
 
 			$this->_rules();
 			if($this->form_validation->run() == FALSE ){
-				$this->load->view('auth_header');
+				$this->load->view('login_header');
 				$this->load->view('form_login');
 				
 			}else{
