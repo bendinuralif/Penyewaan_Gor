@@ -48,7 +48,7 @@
 
 
 		public function ganti_password(){
-			$this->load->view('auth_header');
+			$this->load->view('login_header');
 			$this->load->view('ganti_password');
 			$this->load->view('templates_admin/footer');
 		}
