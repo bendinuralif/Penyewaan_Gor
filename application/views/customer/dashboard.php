@@ -1,3 +1,4 @@
+098 N 
     <!--== SlideshowBg Area Start ==-->
     <section id="slideslow-bg">
         <div class="container">
@@ -142,7 +143,7 @@
                                 <!-- Choose Cars Content-wrap -->
                                 <div class="row popular-car-gird">
 
-                                    <?php foreach ($mobil as $mb ) : ?>
+                                    <?php foreach ($venue as $mb ) : ?>
                                         <!-- Single Popular Car Start -->
                                         <div class="col-lg-6 col-md-6 <?php echo $mb->kode_type ?>">
                                             <div class="single-popular-car">

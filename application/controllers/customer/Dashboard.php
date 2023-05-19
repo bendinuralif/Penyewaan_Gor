@@ -4,7 +4,7 @@
 		public function index(){
 
 			// $data['mobil'] = $this->rental_model->get_data('mobil')->result();
-			$data['mobil'] = $this->db->query("SELECT * FROM mobil mb, type tp WHERE mb.kode_type=tp.kode_type")->result();
+			$data['venue'] = $this->db->query("SELECT * FROM mobil mb, type tp WHERE mb.kode_type=tp.kode_type")->result();
 
 			$data['rental'] = $this->db->query("SELECT nama_rental FROM customer WHERE nama_rental != ''")->result();
 
