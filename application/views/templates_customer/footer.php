@@ -9,7 +9,7 @@
                         <div class="single-footer-widget">
                             <h2>Tentang Kami</h2>
                             <div class="widget-body">
-                                <img src="<?php echo base_url() ?>assets/assets_shop/img/logo.png" alt="JSOFT">
+                                <img src="<?php echo base_url() ?>assets/assets_shop/img/logo_regora.png" alt="JSOFT">
                                 <p>REGORA adalah Pintu penghubung antara penyedia rental dengan customer. Sebuah marketplace untuk penyedia rental dan customer untuk saling terhubung.</p>
                             </div>
                         </div>
