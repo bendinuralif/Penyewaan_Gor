@@ -216,8 +216,8 @@ header.fixTotop #header-bottom {
 
 .logo {
 	display: inline-block;
-	width: 200px;
-	height: 70px;
+	width: 150px;
+	height: 55px;
 	position: relative;
 	padding-top: 5px;
 }
@@ -1348,6 +1348,10 @@ a.slicknav_btn {
 .single-footer-widget p {
 	font-size: 13px;
 	line-height: 2;
+}
+
+.single-footer-widget .gambar {
+	width: 200px;
 }
 
 .single-footer-widget img {

@@ -49,7 +49,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Supir</label>
+                            <label>Toilet</label>
                             <select name="supir" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>
@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>MP3 Player</label>
+                            <label>Parkir</label>
                             <select name="mp3_player" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>
@@ -65,7 +65,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Central Lock</label>
+                            <label>Kantin</label>
                             <select name="central_lock" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>
