@@ -13,7 +13,7 @@ a{color:inherit;text-decoration:none}
 	width:100%;
 	margin:auto;
 	max-width:525px;
-	min-height:670px;
+	min-height:800px;
 	position:relative;
 	background:url(./lapangan-bg.jpg) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
@@ -22,7 +22,7 @@ a{color:inherit;text-decoration:none}
 	width:100%;
 	height:100%;
 	position:absolute;
-	padding:20px 70px 50px 70px;
+	padding:90px 70px 50px 70px;
 	background:rgba(14, 19, 34, 0.881);
 }
 .login-html .sign-in-htm,
