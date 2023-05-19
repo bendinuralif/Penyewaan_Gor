@@ -1,5 +1,5 @@
 
-<h3 style="text-align: center">Laporan Transaksi Rental Mobil</h3>
+<h3 style="text-align: center">Laporan Transaksi Rental Venue</h3>
 
 <table>
 	<tr>
@@ -18,7 +18,7 @@
             <tr>
                 <th>No</th>
                 <th>Customer</th>
-                <th>Mobil</th>
+                <th>Venue</th>
                 <th>Tgl. Rental</th>
                 <th>Tgl. Kembali</th>
                 <th>Harga/Hari</th>

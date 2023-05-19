@@ -3,12 +3,12 @@
 	<div class="card" style="margin-top: 170px; margin-bottom: 50px">
 		
 		<div class="card-header">
-			Form Rental Mobil
+			Form Rental Venue
 		</div>
 		<span class="mt-2"><?php echo $this->session->flashdata('pesan') ?></span>
 		<div class="card-body">
 			<?php foreach($detail as $dt) : ?>
-				<!-- <span style="font-size: 1.2em;">Mobil <?php echo $dt->nama_type ?> dengan Merk <?php echo $dt->merk ?> ini disediakan oleh Perusahaan Rental <?php echo $dt->nama_rental ?>.</span>
+				<!-- <span style="font-size: 1.2em;">Venue <?php echo $dt->nama_type ?> dengan Merk <?php echo $dt->merk ?> ini disediakan oleh Perusahaan Rental <?php echo $dt->nama_rental ?>.</span>
 				<hr> -->
 				<form method="POST" action="<?php echo base_url('customer/rental/tambah_rental_aksi') ?>">
 
@@ -30,7 +30,7 @@
 
 					<div class="form-group">
 						<label>Harga Sewa/Hari</label>
-						<input type="hidden" name="id_mobil" value="<?php echo $dt->id_mobil ?>">
+						<input type="hidden" name="id_venue" value="<?php echo $dt->id_venue ?>">
 						<input type="hidden" name="nama_rental" value="<?php echo $dt->nama_rental ?>">
 						<input type="text" name="harga" class="form-control" value="<?php echo $dt->harga ?>" readonly>
 					</div>

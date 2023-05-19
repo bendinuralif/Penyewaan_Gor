@@ -10,7 +10,7 @@
 				
 				<tr>
 					<th>No</th>
-					<th>Merk Mobil</th>
+					<th>Merk Venue</th>
 					<th>No. Plat</th>
 					<th>Harga/hari</th>
 					<th>Denda/hari</th>

@@ -11,7 +11,7 @@
 					<table class="table">
 						<?php foreach($transaksi as $tr) : ?>
 							<tr>
-								<th>Merk Mobil</th>
+								<th>Merk Venue</th>
 								<td>: </td>
 								<td><?php echo $tr->merk ?></td>
 							</tr>

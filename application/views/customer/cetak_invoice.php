@@ -13,7 +13,7 @@
 		</tr>
 
 		<tr>
-			<td>Merk Mobil</td>
+			<td>Merk Venue</td>
 			<td>: </td>
 			<td><?php echo $tr->merk ?></td>
 		</tr>

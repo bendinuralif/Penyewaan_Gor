@@ -1,4 +1,4 @@
-098 N 
+
     <!--== SlideshowBg Area Start ==-->
     <section id="slideslow-bg">
         <div class="container">
@@ -77,7 +77,7 @@
                                         <i class="fa fa-map-marker"></i>
                                     </div>
                                     <div class="funfact-content">
-                                        <p><span class="counter"><?php echo $total_mobil ?></span>+</p>
+                                        <p><span class="counter"><?php echo $total_venue ?></span>+</p>
                                         <h4>VENUE TERSEDIA</h4>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
 
                                                 <div class="p-car-content">
                                                     <h3>
-                                                        <a href="<?php echo base_url('customer/data_mobil/detail_mobil/') . $mb->id_mobil ?>"><?php echo $mb->merk ?></a>
+                                                        <a href="<?php echo base_url('customer/data_venue/detail_venue/') . $mb->id_venue ?>"><?php echo $mb->merk ?></a>
                                                         <span class="price"><i class="fa fa-tag"></i>Rp. <?php echo number_format($mb->harga,0,',','.') ?>/Hari</span>
                                                     </h3>
 

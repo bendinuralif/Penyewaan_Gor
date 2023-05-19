@@ -98,7 +98,7 @@
                             <ul>
                                 <!-- <li><a href="<?php echo base_url('customer/dashboard') ?>">Beranda</a></li> -->
 
-                                <li><a href="<?php echo base_url('customer/data_mobil') ?>">Venue</a></li>
+                                <li><a href="<?php echo base_url('customer/data_venue') ?>">Venue</a></li>
 
                                 <?php if($this->session->userdata('nama')) { ?>
 

@@ -16,7 +16,7 @@
 				$this->load->view('templates_rental/footer');
 			}else{
 
-				$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.nama_rental = '$nama_rental' AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
+				$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.nama_rental = '$nama_rental' AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
 
 				$this->load->view('templates_rental/header');
 				$this->load->view('templates_rental/sidebar');
@@ -33,7 +33,7 @@
 			$nama_rental	= $this->session->userdata('nama_rental');
 
 			$data['title']	 = "Print Laporan Transaksi";
-			$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND tr.nama_rental = '$nama_rental' AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
+			$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND tr.nama_rental = '$nama_rental' AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
 
 				$this->load->view('templates_rental/header');
 				$this->load->view('rental/print_laporan',$data);

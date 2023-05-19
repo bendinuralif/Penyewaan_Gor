@@ -1,19 +1,19 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Form Update Data Mobil</h1>
+            <h1>Form Update Data Venue</h1>
         </div>
 
         <div class="card">
         	<div class="card-body">
 
-        		<?php foreach ($mobil as $mb) : ?>
-        		<form method="POST" action="<?php echo base_url('rental/data_mobil/update_mobil_aksi') ?>" enctype="multipart/form-data">
+        		<?php foreach ($venue as $mb) : ?>
+        		<form method="POST" action="<?php echo base_url('rental/data_venue/update_venue_aksi') ?>" enctype="multipart/form-data">
         		<div class="row">
         			<div class="col-md-6">
         				<div class="form-group">
-        					<label>Type Mobil</label>
-        					<input type="hidden" name="id_mobil" value="<?php echo $mb->id_mobil ?>">
+        					<label>Type Venue</label>
+        					<input type="hidden" name="id_venue" value="<?php echo $mb->id_venue ?>">
         					<select name="kode_type" class="form-control">
         						<option value="<?php echo $mb->kode_type ?>"><?php echo $mb->nama_type ?></option>
 

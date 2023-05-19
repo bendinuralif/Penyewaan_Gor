@@ -33,7 +33,7 @@
 
               <li class="<?php echo (strpos(current_url(), "admin/dashboard") !== false) ? "active" : ""?>"><a class="nav-link" href="<?php echo base_url('admin/dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
 
-              <li class="<?php echo (strpos(current_url(), "admin/data_mobil") !== false) ? "active" : ""?>"><a class="nav-link" href="<?php echo base_url('admin/data_mobil') ?>"><i class="fas fa-car"></i> <span>Data Mobil</span></a></li>
+              <li class="<?php echo (strpos(current_url(), "admin/data_venue") !== false) ? "active" : ""?>"><a class="nav-link" href="<?php echo base_url('admin/data_venue') ?>"><i class="fas fa-car"></i> <span>Data Venue</span></a></li>
 
               <li class="<?php echo (strpos(current_url(), "admin/data_type") !== false) ? "active" : ""?>"><a class="nav-link" href="<?php echo base_url('admin/data_type') ?>"><i class="fas fa-grip-horizontal"></i> <span>Data Tipe</span></a></li>
 

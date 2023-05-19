@@ -10,7 +10,7 @@
 	<?php foreach ($transaksi as $tr ) : ?>
 		<form method="POST" action="<?php echo base_url('admin/transaksi/transaksi_selesai_aksi') ?>">
 			<input type="hidden" name="id_rental" value="<?php echo $tr->id_rental ?>">
-			<input type="hidden" name="id_mobil" value="<?php echo $tr->id_mobil ?>">
+			<input type="hidden" name="id_venue" value="<?php echo $tr->id_venue ?>">
 
 			<input type="hidden" name="tanggal_kembali" value="<?php echo $tr->tanggal_kembali ?>">
 			<input type="hidden" name="denda" value="<?php echo $tr->denda ?>">

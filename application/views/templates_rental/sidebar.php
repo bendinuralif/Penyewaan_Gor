@@ -33,7 +33,7 @@
 
               <li><a class="nav-link" href="<?php echo base_url('rental/dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
 
-              <li><a class="nav-link" href="<?php echo base_url('rental/data_mobil') ?>"><i class="fas fa-car"></i> <span>Data Mobil</span></a></li>
+              <li><a class="nav-link" href="<?php echo base_url('rental/data_venue') ?>"><i class="fas fa-car"></i> <span>Data Venue</span></a></li>
 
               <li><a class="nav-link" href="<?php echo base_url('rental/transaksi') ?>"><i class="fas fa-random"></i> <span>Transaksi</span></a></li>
 

@@ -33,7 +33,7 @@
             <tr>
                 <th>No</th>
                 <th>Customer</th>
-                <th>Mobil</th>
+                <th>Venue</th>
                 <th>Tgl. Rental</th>
                 <th>Tgl. Kembali</th>
                 <th>Harga/Hari</th>

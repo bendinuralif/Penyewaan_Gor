@@ -6,7 +6,7 @@ class Rental extends CI_Controller
 	public function tambah_rental($id)
 	{
 		
-		$data['detail'] = $this->db->query("SELECT * FROM mobil mb, type tp, customer cs WHERE mb.id_mobil = '$id' AND tp.kode_type = mb.kode_type AND cs.nama_rental=mb.nama_rental")->result();
+		$data['detail'] = $this->db->query("SELECT * FROM venue mb, type tp, customer cs WHERE mb.id_venue = '$id' AND tp.kode_type = mb.kode_type AND cs.nama_rental=mb.nama_rental")->result();
 		$this->load->view('templates_customer/header');
 		$this->load->view('customer/tambah_rental', $data);
 		$this->load->view('templates_customer/footer');
@@ -21,13 +21,13 @@ class Rental extends CI_Controller
 				    <span aria-hidden="true">&times;</span>
 				  </button>
 				</div>');
-			redirect('customer/rental/tambah_rental/' . $this->input->post('id_mobil'));
+			redirect('customer/rental/tambah_rental/' . $this->input->post('id_venue'));
 		}else{
 
 		}
 
 		$id_customer		= $this->session->userdata('id_customer');
-		$id_mobil 			= $this->input->post('id_mobil');
+		$id_venue 			= $this->input->post('id_venue');
 		$nama_rental		= $this->input->post('nama_rental');
 		$tanggal_rental 	= $this->input->post('tanggal_rental');
 		$tanggal_kembali 	= $this->input->post('tanggal_kembali');
@@ -36,7 +36,7 @@ class Rental extends CI_Controller
 
 		$data = array(
 			'id_customer'			=> $id_customer,
-			'id_mobil'				=> $id_mobil,
+			'id_venue'				=> $id_venue,
 			'nama_rental'			=> $nama_rental,
 			'tanggal_rental'		=> $tanggal_rental,		
 			'tanggal_kembali'		=> $tanggal_kembali,
@@ -49,9 +49,9 @@ class Rental extends CI_Controller
 
 		$this->rental_model->insert_data($data, 'transaksi');
 		$status = array('status' => '0');
-		$id = array('id_mobil' => $id_mobil);
+		$id = array('id_venue' => $id_venue);
 
-		$this->rental_model->update_data('mobil',$status,$id);
+		$this->rental_model->update_data('venue',$status,$id);
 
 		$this->session->set_flashdata('pesan','<div class="alert alert-success alert-dismissible fade show" role="alert">
 				  Transaksi Berhasil, Silakan Checkout

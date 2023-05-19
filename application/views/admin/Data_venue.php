@@ -1,10 +1,10 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Data Mobil</h1>
+            <h1>Data Venue</h1>
         </div>
 
-        <a href="<?php echo base_url('admin/data_mobil/tambah_mobil')?>" class="btn btn-primary mb-3">Tambah Data</a>
+        <a href="<?php echo base_url('admin/data_venue/tambah_venue')?>" class="btn btn-primary mb-3">Tambah Data</a>
 
         <?php echo $this->session->flashdata('pesan') ?>
 
@@ -24,7 +24,7 @@
 
         		<?php
         			$no = 1;
-        			foreach ($mobil as $mb) : ?>
+        			foreach ($venue as $mb) : ?>
                         <tr>
             				<td><?php echo $no++ ?></td>
             				<td>
@@ -41,9 +41,9 @@
             					}
             				?></td>
             				<td>
-            					<a href="<?php echo base_url('admin/data_mobil/detail_mobil/').$mb->id_mobil ?>" class="btn btn-sm btn-success"><i class="fas fa-eye"></i></a>
-            					<a href="<?php echo base_url('admin/data_mobil/delete_mobil/').$mb->id_mobil ?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
-            					<a href="<?php echo base_url('admin/data_mobil/update_mobil/').$mb->id_mobil ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+            					<a href="<?php echo base_url('admin/data_venue/detail_venue/').$mb->id_venue ?>" class="btn btn-sm btn-success"><i class="fas fa-eye"></i></a>
+            					<a href="<?php echo base_url('admin/data_venue/delete_venue/').$mb->id_venue ?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+            					<a href="<?php echo base_url('admin/data_venue/update_venue/').$mb->id_venue ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
             				</td>
                         </tr>
         		<?php endforeach; ?>

@@ -1,18 +1,18 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Form Input Data Mobil</h1>
+            <h1>Form Input Data Venue</h1>
         </div>
 
         <div class="card">
         	<div class="card-body">
-        		<form method="POST" action="<?php echo base_url('admin/data_mobil/tambah_mobil_aksi') ?>" enctype="multipart/form-data">
+        		<form method="POST" action="<?php echo base_url('admin/data_venue/tambah_venue_aksi') ?>" enctype="multipart/form-data">
         		<div class="row">
         			<div class="col-md-6">
         				<div class="form-group">
-        					<label>Type Mobil</label>
+        					<label>Type Venue</label>
         					<select name="kode_type" class="form-control">
-        						<option value="">--Pilih Type Mobil--</option>
+        						<option value="">--Pilih Type Venue--</option>
 
         						<?php foreach ($type as $tp) :?>
         							<option value="<?php echo $tp->kode_type?>"><?php echo $tp->nama_type?></option>

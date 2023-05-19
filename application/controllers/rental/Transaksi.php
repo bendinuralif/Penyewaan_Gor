@@ -6,7 +6,7 @@
 		public function index(){
 			$this->rental_model->rental_login();
 			$nama_rental = $this->session->userdata('nama_rental');	
-			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND tr.nama_rental='$nama_rental'")->result();
+			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND tr.nama_rental='$nama_rental'")->result();
 			$this->load->view('templates_rental/header');
 			$this->load->view('templates_rental/sidebar');
 			$this->load->view('rental/Data_transaksi',$data);
@@ -101,10 +101,10 @@
 			$this->rental_model->update_data('transaksi', $data, $where);
 
 			if($status_rental == 'Selesai'){
-				$id_mobil = $this->input->post('id_mobil');
+				$id_venue = $this->input->post('id_venue');
 				$data2	= array('status'   => '1');
-				$where2 = array('id_mobil'  => $id_mobil );
-				$this->rental_model->update_data('mobil', $data2, $where2);
+				$where2 = array('id_venue'  => $id_venue );
+				$this->rental_model->update_data('venue', $data2, $where2);
 			}else{
 			}
 
@@ -127,7 +127,7 @@
 			$data  = $this->rental_model->get_where($where, 'transaksi')->row();
 
 			$where2 = array(
-				'id_mobil' => $data->id_mobil
+				'id_venue' => $data->id_venue
 			);
 			$data2	= array('status'   => '1');
 
@@ -136,7 +136,7 @@
 			}else{
 			}
 			
-			$this->rental_model->update_data('mobil', $data2, $where2);
+			$this->rental_model->update_data('venue', $data2, $where2);
 			$this->rental_model->delete_data($where, 'transaksi');
 
 			$this->session->set_flashdata('pesan','<div class="alert alert-success alert-dismissible fade show" role="alert">

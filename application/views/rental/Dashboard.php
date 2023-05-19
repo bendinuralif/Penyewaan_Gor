@@ -12,10 +12,10 @@
                 </div>
                 <div class="card-wrap">
                   <div class="card-header">
-                    <h4>Total Mobil</h4>
+                    <h4>Total Venue</h4>
                   </div>
                   <div class="card-body">
-                    <?php echo $total_data['total_mobil']; ?>
+                    <?php echo $total_data['total_venue']; ?>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@
                         <div class="media-body">
                           <div class="float-right text-primary">Rental #<?php echo $tr->id_rental ?></div>
                           <div class="media-title"><?php echo $tr->nama ?></div>
-                          <span class="text-small text-muted text-bold">Rental mobil <?php echo $tr->merk ?> dari tanggal <?php echo date('d/m/Y', strtotime($tr->tanggal_rental ))?> sampai <?php echo date('d/m/Y', strtotime($tr->tanggal_kembali ))?>.</span><br>
+                          <span class="text-small text-muted text-bold">Rental venue <?php echo $tr->merk ?> dari tanggal <?php echo date('d/m/Y', strtotime($tr->tanggal_rental ))?> sampai <?php echo date('d/m/Y', strtotime($tr->tanggal_kembali ))?>.</span><br>
 
                           <?php 
                             if(empty($tr->bukti_pembayaran)) { ?>

@@ -4,14 +4,14 @@
 		public function index(){
 
 			$customer = $this->session->userdata('id_customer');
-			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND cs.id_customer='$customer' ORDER BY id_rental ASC")->result();
+			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND cs.id_customer='$customer' ORDER BY id_rental ASC")->result();
 			$this->load->view('templates_customer/header');
 			$this->load->view('customer/transaksi',$data);
 			$this->load->view('templates_customer/footer');
 		}
 
 		public function pembayaran($id){
-			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_rental='$id' AND cs.nama_rental = tr.nama_rental ORDER BY id_rental DESC")->result();
+			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_rental='$id' AND cs.nama_rental = tr.nama_rental ORDER BY id_rental DESC")->result();
 
 			$nama_rental = $data['transaksi'][0]->nama_rental;
 			$data['payment']	= $this->db->query("SELECT * FROM payment WHERE nama_rental = '$nama_rental'")->result();
@@ -60,7 +60,7 @@
 		}
 
 		public function cetak_invoice($id){
-			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND tr.id_rental='$id'")->result();
+			$data['transaksi'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND tr.id_rental='$id'")->result();
 
 			$data['nama_rental'] = $this->db->query("SELECT nama_rental FROM transaksi WHERE id_rental = '$id'")->result();
 
@@ -75,10 +75,10 @@
 			$where = array('id_rental' => $id);
 			$data  = $this->rental_model->get_where($where, 'transaksi')->row();
 
-			$where2 = array('id_mobil' => $data->id_mobil);
+			$where2 = array('id_venue' => $data->id_venue);
 			$data2	= array('status'   => '1');
 
-			$this->rental_model->update_data('mobil', $data2, $where2);
+			$this->rental_model->update_data('venue', $data2, $where2);
 			$this->rental_model->delete_data($where, 'transaksi');
 
 			$this->session->set_flashdata('pesan','<div class="alert alert-success alert-dismissible fade show" role="alert">

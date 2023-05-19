@@ -22,8 +22,8 @@
 			$this->db->delete($table);
 		}
 
-		public function ambil_id_mobil($id){
-			$hasil = $this->db->where('id_mobil',$id)->get('mobil');
+		public function ambil_id_venue($id){
+			$hasil = $this->db->where('id_venue',$id)->get('venue');
 			if($hasil->num_rows() > 0){
 				return $hasil->result();
 			}else{
@@ -65,14 +65,14 @@
 			$menunggu_konfirmasi= $this->db->query("SELECT * FROM transaksi WHERE bukti_pembayaran != '' AND status_pembayaran = '0' AND nama_rental = '$nama_rental'")->num_rows();
 			$transaksi			= $this->db->get_where('transaksi', array('nama_rental' => $nama_rental))->num_rows();
 			$transaksi_selesai	= $this->db->query("SELECT * FROM transaksi WHERE status_rental = 'Selesai' AND nama_rental = '$nama_rental'")->num_rows();
-			$mobil 				= $this->db->get_where('mobil', array('nama_rental' => $nama_rental))->num_rows();
+			$venue 				= $this->db->get_where('venue', array('nama_rental' => $nama_rental))->num_rows();
 
 			$data = array(
 
 				'total_menunggu_konfirmasi' => $menunggu_konfirmasi,
 				'total_transaksi'	=> $transaksi,
 				'total_transaksi_selesai' => $transaksi_selesai,
-				'total_mobil'	=> $mobil
+				'total_venue'	=> $venue
 			);	
 
 			return $data;
@@ -83,14 +83,14 @@
 			$customer			= $this->db->get_where('customer', array('role_id' => '2'))->num_rows();
 			$transaksi			= $this->db->count_all_results('transaksi');
 			$transaksi_selesai	= $this->db->get_where('transaksi', array('status_rental' => 'Selesai'))->num_rows();
-			$mobil 				= $this->db->count_all_results('mobil');
+			$venue 				= $this->db->count_all_results('venue');
 
 			$data = array(
 
 				'total_customer' => $customer,
 				'total_transaksi'	=> $transaksi,
 				'total_transaksi_selesai' => $transaksi_selesai,
-				'total_mobil'	=> $mobil
+				'total_venue'	=> $venue
 			);	
 
 			return $data;

@@ -15,7 +15,7 @@
 				$this->load->view('templates_admin/footer');
 			}else{
 
-				$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
+				$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
 
 				$this->load->view('templates_admin/header');
 				$this->load->view('templates_admin/sidebar');
@@ -31,7 +31,7 @@
 			$sampai 	= $this->input->get('sampai');
 
 			$data['title']	 = "Print Laporan Transaksi";
-			$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, mobil mb, customer cs WHERE tr.id_mobil=mb.id_mobil AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
+			$data['laporan'] = $this->db->query("SELECT * FROM transaksi tr, venue mb, customer cs WHERE tr.id_venue=mb.id_venue AND tr.id_customer=cs.id_customer AND date(tanggal_rental) >= '$dari' AND date(tanggal_rental) <= '$sampai'")->result();
 
 				$this->load->view('templates_admin/header');
 				$this->load->view('admin/print_laporan',$data);

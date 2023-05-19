@@ -1,7 +1,7 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Detail Mobil</h1>
+            <h1>Detail venue</h1>
         </div>
 
         <?php foreach ( $detail as $dt ) : ?>
@@ -19,14 +19,17 @@
                             
                             <table class="table">
                                 <tr>
-                                    <td>Type Mobil</td>
+                                    <td>Type Venue</td>
                                     <td>
-                                        
                                         <?php 
-                                            foreach($type as $tp){
-                                                if($dt->kode_type == $tp->kode_type){
-                                                    echo $tp->nama_type;
-                                                }
+                                            if($dt->kode_type == "SDN"){
+                                                echo "Sedan";
+                                            }elseif($dt->kode_type == "HTB"){
+                                                echo "Hatchback";
+                                            }elseif($dt->kode_type == "MPV"){
+                                                echo "Multi Purpose Vehicle";
+                                            }else{
+                                                echo "<span class='text-danger'> Tipe venue belum terdaftar </span>";
                                             }
                                         ?>
                                     </td>
@@ -60,11 +63,6 @@
                                 <tr>
                                     <td>Denda</td>
                                     <td>Rp. <?php echo number_format($dt->denda,0,',','.')?></td>
-                                </tr>
-
-                                <tr>
-                                    <td>Pemilik</td>
-                                    <td><?php echo $dt->nama_rental?></td>
                                 </tr>
 
                                 <tr>
@@ -129,8 +127,8 @@
                                 </tr>
                             </table>
 
-                            <a class="btn btn-sm btn-danger ml-4" href="<?php echo base_url('admin/data_mobil') ?>">Kembali</a>
-                            <a class="btn btn-sm btn-primary" href="<?php echo base_url('admin/data_mobil/update_mobil/') . $dt->id_mobil ?>">Update</a>
+                            <a class="btn btn-sm btn-danger ml-4" href="<?php echo base_url('rental/data_venue') ?>">Kembali</a>
+                            <a class="btn btn-sm btn-primary" href="<?php echo base_url('rental/data_venue/update_venue/') . $dt->id_venue ?>">Update</a>
                         </div>
 
                     </div>
