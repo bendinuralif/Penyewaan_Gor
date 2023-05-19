@@ -7,7 +7,7 @@
 			if($this->form_validation->run() == FALSE ){
 				$this->load->view('auth_header');
 				$this->load->view('form_login');
-				$this->load->view('templates_admin/footer');
+				
 			}else{
 				$username = $this->input->post('username');
 				$password = md5($this->input->post('password'));	
