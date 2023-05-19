@@ -23,7 +23,7 @@ a{color:inherit;text-decoration:none}
 	width:100%;
 	height:100%;
 	position:absolute;
-	padding:90px 70px 50px 70px;
+	padding:120px 70px 50px 70px;
 	background:rgba(14, 19, 34, 0.881);
 }
 .login-html .sign-in-htm,
@@ -51,7 +51,7 @@ a{color:inherit;text-decoration:none}
 	font-size:22px;
 	margin-right:15px;
 	padding-bottom:5px;
-	margin:0 15px 10px 0;
+	margin:0 15px 20px 0;
 	display:inline-block;
 	border-bottom:2px solid transparent;
 }
@@ -80,7 +80,7 @@ a{color:inherit;text-decoration:none}
 .login-form .group .button{
 	border:none;
 	padding:15px 20px;
-	border-radius:25px;
+	border-radius:250px;
 	background:rgba(255,255,255,.1);
 }
 .login-form .group input[data-type="password"]{
@@ -100,7 +100,7 @@ a{color:inherit;text-decoration:none}
 	border-radius:2px;
 	position:relative;
 	display:inline-block;
-	background:rgba(255,255,255,.1);
+	background:rgba(72, 71, 71, 0.552);
 }
 .login-form .group label .icon:before,
 .login-form .group label .icon:after{

@@ -11,7 +11,7 @@
            
             <div class="login-wrap">
 	<div class="login-html">
-		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign Up</label>
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Register</label>
 		<div class="login-form">
               <div class="card-body">
                 <form method="POST" action="<?php echo base_url('register') ?>">
@@ -39,7 +39,7 @@
                   <div class="row">
                     <div class="group">
                       <label for="gender" class="d-block">Gender</label>
-                      <select class="input" name="gender">
+                      <select class="input text-white" name="gender">
                         <option value="">-- Pilih gender --</option>
                         <option value="Laki-laki">Laki-laki</option>
                         <option value="Perempuan">Perempuan</option>
