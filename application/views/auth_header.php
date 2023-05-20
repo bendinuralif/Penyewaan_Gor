@@ -15,3 +15,4 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/assets_stisla') ?>/assets/css/components.css">
   <link rel="stylesheet" href="<?php echo base_url('assets/assets_stisla') ?>/assets/css/login.css">
 </head>
+
