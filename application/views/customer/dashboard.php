@@ -156,7 +156,7 @@
                                                 <div class="p-car-content">
                                                     <h3>
                                                         <a href="<?php echo base_url('customer/data_venue/detail_venue/') . $mb->id_venue ?>"><?php echo $mb->merk ?></a>
-                                                        <span class="price"><i class="fa fa-tag"></i>Rp. <?php echo number_format($mb->harga,0,',','.') ?>/Hari</span>
+                                                        <span class="price"><i class="fa fa-tag"></i>Rp. <?php echo number_format($mb->harga,0,',','.') ?>/Jam</span>
                                                     </h3>
 
                                                     <h5><?php echo $mb->nama_rental ?></h5>
@@ -168,17 +168,17 @@
                                                         <?php } ?>
 
                                                         <?php if($mb->supir == '1') { ?>
-                                                            <a>SUPIR</a>
+                                                            <a>TOILET</a>
                                                         <?php } else { ?>
                                                         <?php } ?>
 
                                                         <?php if($mb->mp3_player == '1') { ?>
-                                                            <a>MP3 PLAYER</a>
+                                                            <a>PARKIR</a>
                                                         <?php } else { ?>
                                                         <?php } ?>
 
                                                         <?php if($mb->central_lock == '1') { ?>
-                                                            <a>CENTRAL LOCK</a>
+                                                            <a>KANTIN</a>
                                                         <?php } else { ?>
                                                         <?php } ?>
                                                     </div>

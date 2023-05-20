@@ -50,7 +50,7 @@
 	                                    	}else{
 	                                    		echo "<i class='fa fa-times-circle text-danger'></i>";
 	                                    	}
-	                                    ?> Supir
+	                                    ?> Toilet
 	                                	</li>
 	                                	<li><?php 
 	                                    	if($mb->mp3_player == "1"){
@@ -58,7 +58,7 @@
 	                                    	}else{
 	                                    		echo "<i class='fa fa-times-circle text-danger'></i>";
 	                                    	}
-	                                    ?> MP3 Player
+	                                    ?> Parkir
 	                                	</li>
 	                                	<li><?php 
 	                                    	if($mb->central_lock == "1"){
@@ -66,7 +66,7 @@
 	                                    	}else{
 	                                    		echo "<i class='fa fa-times-circle text-danger'></i>";
 	                                    	}
-	                                    ?> Central Lock
+	                                    ?> Kantin
 	                                	</li>
 	                                </ul>
 	                                <?php 

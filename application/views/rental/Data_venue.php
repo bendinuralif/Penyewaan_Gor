@@ -13,7 +13,7 @@
                 <tr>
             		<th>No</th>
     				<th>Gambar</th>
-    				<th>Type</th>
+    				<th>Nama Tempat</th>
     				<th>Merk</th>
     				<th>No. Plat</th>
     				<th>Status</th>

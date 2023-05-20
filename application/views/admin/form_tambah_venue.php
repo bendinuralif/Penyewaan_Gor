@@ -22,12 +22,12 @@
         				</div>
 
         				<div class="form-group">
-        					<label>Merk</label>
+        					<label>Nama Tempat</label>
         					<input type="text" name="merk" class="form-control">
         					<?php echo form_error('merk','<div class="text-small text-danger">','</div>') ?>
         				</div>
 
-        				<div class="form-group">
+                        <div class="form-group">
         					<label>No. Plat</label>
         					<input type="text" name="no_plat" class="form-control">
         					<?php echo form_error('no_plat','<div class="text-small text-danger">','</div>') ?>
@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Supir</label>
+                            <label>Toilet</label>
                             <select name="supir" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>MP3 Player</label>
+                            <label>Parkir</label>
                             <select name="mp3_player" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>
@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Central Lock</label>
+                            <label>Kantin</label>
                             <select name="central_lock" class="form-control">
                                 <option value="1">Tersedia</option>
                                 <option value="0">Tidak Tersedia</option>

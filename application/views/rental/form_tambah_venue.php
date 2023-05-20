@@ -23,12 +23,12 @@
         				</div>
 
         				<div class="form-group">
-        					<label>Merk</label>
+        					<label>Nama Tempat</label>
         					<input type="text" name="merk" class="form-control">
         					<?php echo form_error('merk','<div class="text-small text-danger">','</div>') ?>
         				</div>
 
-        				<div class="form-group">
+                        <div class="form-group">
         					<label>No. Plat</label>
         					<input type="text" name="no_plat" class="form-control">
         					<?php echo form_error('no_plat','<div class="text-small text-danger">','</div>') ?>

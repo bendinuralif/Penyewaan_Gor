@@ -9,7 +9,6 @@
 			if($this->form_validation->run() == FALSE){
 				$this->load->view('auth_header');
 				$this->load->view('register_form');
-				$this->load->view('templates_admin/footer');
 			}else{
 				$nama			= $this->input->post('nama');
 				$username		= $this->input->post('username');
