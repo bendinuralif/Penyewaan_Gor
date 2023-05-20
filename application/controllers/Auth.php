@@ -50,7 +50,7 @@
 		public function ganti_password(){
 			$this->load->view('login_header');
 			$this->load->view('ganti_password');
-			$this->load->view('templates_admin/footer');
+
 		}
 
 		public function ganti_password_aksi(){
@@ -63,7 +63,7 @@
 			if($this->form_validation->run() == FALSE){
 				$this->load->view('auth_header');
 				$this->load->view('ganti_password');
-				$this->load->view('templates_admin/footer');
+	
 			}else{
 				$data = array( 'password' => md5($pass_baru));
 				$id   = array( 'id_customer' => $this->session->userdata('id_customer'));
