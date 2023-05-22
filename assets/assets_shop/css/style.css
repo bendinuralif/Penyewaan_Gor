@@ -370,9 +370,9 @@ a.slicknav_btn {
 
 .single-slide-item {
 	background-image: url(http://localhost/car/assets/assets_shop/img/banner.jpg);
-	background-position: center center;
+	background-position: center;
 	background-size: cover;
-	padding: 80px 0;
+	background-repeat:no-repeat;
 }
 
 .book-a-car {

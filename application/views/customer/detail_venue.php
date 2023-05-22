@@ -11,7 +11,7 @@
 						<table class="table">
 							<tr>
 								
-								<th>Merk</th>
+								<th>Nama Tempat</th>
 								<td><?php echo $dt->merk ?></td>
 
 							</tr>
