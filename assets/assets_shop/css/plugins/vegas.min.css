@@ -1,5 +1,5 @@
 .vegas-wrapper {
-    background-image: url(./lapangan.jpg) ;
+    background: url(./lapangan.jpg)no-repeat center ;
     background-repeat: no-repeat;
     background-size: cover;
 	left: 0;
