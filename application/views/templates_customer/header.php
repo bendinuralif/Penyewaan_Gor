@@ -54,29 +54,29 @@
     <header id="header-area" class="fixed-top">
         <!--== Header Top Start ==-->
         <!-- <div id="header-top" class="d-none d-xl-block"> -->
-            <!-- <div class="container"> -->
-                <!-- <div class="row"> -->
-                    <!--== Single HeaderTop Start ==-->
-                    <!-- <div class="col-lg-4 text-left"> -->
-                        <!-- <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka -->
-                    <!-- </div> -->
-                    <!--== Single HeaderTop End ==-->
+        <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
+        <!--== Single HeaderTop Start ==-->
+        <!-- <div class="col-lg-4 text-left"> -->
+        <!-- <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka -->
+        <!-- </div> -->
+        <!--== Single HeaderTop End ==-->
 
-                    <!--== Single HeaderTop Start ==-->
-                    <!-- <div class="col-lg-4 text-center"> -->
-                        <!-- <i class="fa fa-mobile"></i> +1 800 345 678 -->
-                    <!-- </div> -->
-                    <!--== Single HeaderTop End ==-->
+        <!--== Single HeaderTop Start ==-->
+        <!-- <div class="col-lg-4 text-center"> -->
+        <!-- <i class="fa fa-mobile"></i> +1 800 345 678 -->
+        <!-- </div> -->
+        <!--== Single HeaderTop End ==-->
 
-                    <!--== Single HeaderTop Start ==-->
-                    <!-- <div class="col-lg-4 text-right"> -->
-                        <!-- <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00 -->
-                    <!-- </div> -->
-                    <!--== Single HeaderTop End ==-->
+        <!--== Single HeaderTop Start ==-->
+        <!-- <div class="col-lg-4 text-right"> -->
+        <!-- <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00 -->
+        <!-- </div> -->
+        <!--== Single HeaderTop End ==-->
 
-                    
-                <!-- </div> -->
-            <!-- </div> -->
+
+        <!-- </div> -->
+        <!-- </div> -->
         </div>
         <!--== Header Top End ==-->
 
@@ -100,25 +100,25 @@
 
                                 <li><a href="<?php echo base_url('customer/data_venue') ?>">Venue</a></li>
 
-                                <?php if($this->session->userdata('nama')) { ?>
+                                <?php if ($this->session->userdata('nama')) { ?>
 
                                     <li><a href="<?php echo base_url('customer/transaksi') ?>">Transaksi</a></li>
 
-                                <?php }else{ ?>
+                                <?php } else { ?>
 
                                 <?php } ?>
 
-                                
-                                <?php if($this->session->userdata('nama')) { ?>
-                          
+
+                                <?php if ($this->session->userdata('nama')) { ?>
+
                                     <li><a href="<?php echo base_url('auth/ganti_password') ?>">Ganti Password</a></li>
 
                                     <li><a class="text-warning">Halo, <?php echo $this->session->userdata('nama') ?></a></li>
 
                                     <li><a href="<?php echo base_url('auth/logout') ?>">| LOGOUT</a></li>
-                                <?php }else{ ?>
+                                <?php } else { ?>
                                     <li><a href="<?php echo base_url('register') ?>">Register</a></li>
-                                    <li><a href="<?php echo base_url('auth/login') ?>">Login</a></li>
+                                    <li><a href="<?php echo base_url('login') ?>">Login</a></li>
                                 <?php } ?>
                             </ul>
                         </nav>
