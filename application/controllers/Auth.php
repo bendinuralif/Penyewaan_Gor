@@ -7,7 +7,7 @@
 			if($this->form_validation->run() == FALSE ){
 				$this->load->view('login_header');
 				$this->load->view('form_login');
-				
+				//			
 			}else{
 				$username = $this->input->post('username');
 				$password = md5($this->input->post('password'));	
