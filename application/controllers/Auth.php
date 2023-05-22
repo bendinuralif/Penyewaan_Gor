@@ -7,7 +7,11 @@
 			if($this->form_validation->run() == FALSE ){
 				$this->load->view('login_header');
 				$this->load->view('form_login');
+<<<<<<< HEAD
 				//COMMENT
+=======
+				//			
+>>>>>>> c9977c8238cd9a2983d7209335cc27bbae036465
 			}else{
 				$username = $this->input->post('username');
 				$password = md5($this->input->post('password'));	
