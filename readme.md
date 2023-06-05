@@ -1,4 +1,4 @@
-<h2 align="center">REGORA (CodeIgniter 3)</h2>
+<h2(CodeIgniter 3)</h2>
 
 Aplikasi marketplace rental tempat olahraga menggunakan framework CodeIgniter 3. Dengan multi user (admin, pemilik rental dan kustomer). 
 
